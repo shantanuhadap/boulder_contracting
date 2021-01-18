@@ -6,7 +6,7 @@
   >
     <base-material-card
       icon="mdi-account-multiple"
-      title="Customers Table"
+      title="Customers"
       class="px-5 py-3"
     >
     
@@ -33,7 +33,7 @@
 
 <script>
 export default {
-    name: 'DashboardCustomers',
+    name: 'StaffCustomers',
     data () {
       return {
 

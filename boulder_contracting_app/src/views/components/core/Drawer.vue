@@ -111,7 +111,7 @@
 <script>
   // Utilities
   import {
-    mapState,
+    mapState
   } from 'vuex'
 
   export default {
@@ -150,39 +150,39 @@
 
       drawer_customer_items: [
         {
-          icon: 'mdi-view-dashboard',
+          icon: 'mdi-file-document-edit-outline',
           title: 'customerpurchaseagreement',
-          to: '/pages/customer-purchase-agreement',
+          to: '/boulder_customer/purchase-agreement',
         },
         {
-          icon: 'mdi-view-dashboard',
+          icon: 'mdi-home-search-outline',
           title: 'customerhomeselections',
-          to: '/pages/customer-home-selections',
+          to: '/boulder_customer/home-selections',
         },
         {
-          icon: 'mdi-view-dashboard',
+          icon: 'mdi-home-city-outline',
           title: 'customervendorselection',
-          to: '/pages/customer-vendor-selection',
+          to: '/boulder_customer/vendor-selection',
         },
         {
-          icon: 'mdi-view-dashboard',
+          icon: 'mdi-clipboard-flow-outline',
           title: 'customerchangeorder',
-          to: '/pages/customer-change-order',
+          to: '/boulder_customer/change-order',
         },
         {
-          icon: 'mdi-view-dashboard',
+          icon: 'mdi-home-edit-outline',
           title: 'customerhomedesign',
-          to: '/pages/customer-home-design',
+          to: '/boulder_customer/home-design',
         },
         {
-          icon: 'mdi-view-dashboard',
+          icon: 'mdi-upload',
           title: 'customeruploads',
-          to: '/pages/customer-uploads',
+          to: '/boulder_customer/uploads',
         },
         {
-          icon: 'mdi-view-dashboard',
+          icon: 'mdi-currency-usd',
           title: 'customercostbreakdown',
-          to: '/pages/customer-cost-breakdown',
+          to: '/boulder_customer/cost-breakdown',
         },
        
       ],

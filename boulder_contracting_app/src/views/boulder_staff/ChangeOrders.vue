@@ -67,7 +67,7 @@
                       cols="12"
                     >
                       <v-textarea
-                        v-model="selected_change_order.change_order_customer_note"
+                        v-model="selected_change_order.change_order_staff_note"
                         label="Additional Notes From Boulder staff (Attached to Email)"
                       ></v-textarea>
                     </v-col>
@@ -130,7 +130,7 @@
 
 <script>
 export default {
-    name: 'DashboardChangeOrders',
+    name: 'StaffChangeOrder',
     data () {
       return {
         dialog: false,

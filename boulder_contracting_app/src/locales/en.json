@@ -3,5 +3,12 @@
   "dashboard": "Dashboard",
   "customers": "Customers",
   "newcustomers": "New Customer",
-  "changeorders": "Change Orders"
+  "changeorders": "Change Order",
+  "customerpurchaseagreement": "Purchase Agreement",
+  "customerhomeselections": "Home Selections",
+  "customervendorselection": "Vendor Selection",
+  "customerchangeorder": "Change Order",
+  "customerhomedesign": "Home Design",
+  "customeruploads": "Uploads",
+  "customercostbreakdown": "Cost Breakdown"
 }

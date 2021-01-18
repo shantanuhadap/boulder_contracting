@@ -7,19 +7,12 @@
     <v-row justify="center">
       <v-col
         cols="12"
-        md="8"
+        md="12"
       >
-        <base-material-card>
-          <template v-slot:heading>
-            <div class="display-2 font-weight-light">
-              Add Customer
-            </div>
-
-            <div class="subtitle-1 font-weight-light">
-              Enter new customer details
-            </div>
-          </template>
-
+        <base-material-card
+        icon="mdi-account-plus"
+        title="Add New Customer"
+        class="px-5 py-3">
           <v-form>
             <v-container class="py-0">
               <v-row>
@@ -144,6 +137,6 @@
 
 <script>
   export default {
-    name: 'DashboardNewCustomer',
+    name: 'StaffNewCustomer',
 }
 </script>

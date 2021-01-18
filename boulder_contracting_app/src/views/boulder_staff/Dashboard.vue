@@ -40,7 +40,7 @@
 
 <script>
 export default {
-  name: 'DashboardDashboard',
+  name: 'StaffDashboard',
   data () {
       return {
         actionitems: [
